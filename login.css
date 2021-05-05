@@ -1,0 +1,209 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(182, 170, 124);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#heading{
+  font-family: 'Orelega One', cursive;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  color: rgb(81, 182, 250);
+  text-shadow: 2px 2px 3px rgb(190, 230, 240);
+}
+  #id{
+    color:green;
+  }
+     
+ 
+
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, rgb(203, 233, 250) , rgb(234, 239, 240));
+  padding: 20px 0 30px 0;
+ 
+
+position: absolute;
+top:0;
+bottom: 0;
+left: 0;
+right: 0;
+  
+margin: auto;
+  
+} 
+
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+
+
+/* style the submit button */
+
+
+/* Two-column layout */
+.col {
+  float: left;
+  width:70%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+  padding-left: 440px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 650px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+.row{
+    margin-top: 100px;
+}
+
+
+
+.show {display: block;}
+
+#submit{
+  background-color: rgb(101, 160, 248);
+  color: white;
+  padding:15px 35px;
+  border:none;
+  border-radius: 10px;
+  transition: 0.4s all;
+  border:2px solid rgb(149, 219, 231);
+  font-size: 16px;
+  width: 46ch;
+  margin-top: 7px;
+}
+#submit:hover{
+  cursor: pointer;
+  background-color: rgb(182, 152, 250);
+  border: 2px solid  white;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0,0.3);
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+ 
+
+.button2 {
+  background-color: rgb(173, 250, 250); 
+  color: black; 
+  border-radius: 10px;
+  border: 2px solid #4688eb;
+  font-family: 'Roboto Slab', serif;
+ 
+}
+
+.button2:hover {
+  background-color: #85d5f0;
+  color: white;
+}
+
+.button3 {
+  background-color: rgb(173, 250, 250); 
+  color: black; 
+  border-radius: 10px;
+  font-family: 'Roboto Slab', serif;
+
+  border: 2px solid #4688eb;
+
+}
+
+.button3:hover {
+  background-color: #85d5f0;
+  color: white;
+}
+
+/*
+#placebtn{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+*/
+.active{
+  background-color: #85d5f0;
+  color: white;
+}

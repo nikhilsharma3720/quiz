@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.heading{
+margin-left: 500px;
+}
+#header{
+        box-shadow: 0px 2px 5px 1px #99bbfc;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(73, 42, 42);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ 
+  
+  .main{
+      margin-left: 50px;
+      width: 70%;
+  }
+  .question{
+      margin-left: 20px;
+  }
+  #question_number{
+    margin-top: 10px;
+}
+#question_input {
+   /* margin-right: 550px; */
+   width: 100%;
+}
+.input-fields{
+    width: 200px;
+}
+#option-a{
+    width: 110px;
+}
+#submit2{
+    background-color: bisque;
+}
